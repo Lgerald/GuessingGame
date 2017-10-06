@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Guessing Game</title>
+    <!-- Bootstrap and CSS here -->
+    <link rel='stylesheet' type='text/css' href='style.css'>
+
+  </head>
+  <body>
+
+      <div id='app' class='center'>
+
+        <div id='headers'>
+          <!-- Title and subtitles! -->
+          <h1 id="title">Lets play a game... A Guessing Game!</h1>
+          <h2 id="subtitle">guess a number between 1 and 100</h2>
+        </div>
+
+        <div id='main'>
+          <div id='input-parent'>
+            <!-- Player's guess input, and submit button -->
+            <input id="player-input" class="center" placeholder="guess" maxlength="3" name="Guess" autofocus=autofocus></input>
+            <button id="submit">submit</button>
+          </div>
+
+          <div id='guesses'>
+            <!-- unordered list of guesses -->
+            <h2>you have 5 chances to guess correctly:</h2>
+            <ul id="guess-list">
+              <li class="guess">1</li>
+              <li class="guess">2</li>
+              <li class="guess">3</li>
+              <li class="guess">4</li>
+              <li class="guess">5</li>
+            </ul>
+          </div>
+
+          <div id="menu-btns">
+            <!-- reset and hint buttons -->
+            <button type="button">reset</button>
+            <button type="button">hint</button>
+          </div>
+        </div>
+      </div>
+
+  </head>
+
+    <div id='footer' class="center">
+        <div>
+          <div class=''>
+            <img src='FullStack_Logo.png'></img>
+          </div>
+
+          <div class=''>
+            <h4>Project by Leah Gerald</h4>
+          </div>
+
+          <div class=''>
+            <img src='Grace_Hopper_Logo.png'></img>
+          </div>
+
+
+        </div>
+    </div>
+
+  </body>
+</html>
